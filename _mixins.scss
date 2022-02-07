@@ -1,0 +1,17 @@
+@mixin button-border {
+    padding: 1rem;
+    border: 2px solid $pink;
+    border-radius: 30px;
+  }
+
+@mixin text-wrap {
+  padding: 3rem;        
+        h2 {
+            font-family: $font-poppins;
+            margin-bottom: 2rem;
+        }
+        p {
+            font-family: $font-open-sans;
+            font-weight: 400;
+        }
+}
